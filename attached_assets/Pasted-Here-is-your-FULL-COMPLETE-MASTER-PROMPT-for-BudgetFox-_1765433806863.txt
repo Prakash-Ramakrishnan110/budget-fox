@@ -1,0 +1,482 @@
+Here is your FULL & COMPLETE MASTER PROMPT for BudgetFox – AI Personal Finance Manager.
+You can copy-paste this single prompt into Lovable AI, Builder, App Generator, or any LLM tool to generate the entire app, backend, AI features, UI, and workflow.
+
+This is the FINAL, COMPLETE, ALL-IN-ONE prompt you requested.
+(You do NOT need any other prompts.)
+
+
+---
+
+🦊 🔥 MASTER APP GENERATION PROMPT (COPY–PASTE DIRECTLY)
+
+TITLE:
+BudgetFox – AI Personal Finance Manager with E-ATM Virtual Card, PayLater, EMI, Credit Score & Fraud Detection
+
+
+---
+
+FULL REQUIREMENTS:
+Build a complete FinTech-grade Personal Finance app named BudgetFox for students.
+The app must include mobile app (React Native or Flutter) + backend API (FastAPI or Node.js) + AI/ML modules + admin dashboard + database + virtual card system.
+
+Build the ENTIRE system with the following modules:
+
+
+---
+
+⭐ 1. App Name & Branding
+
+App Name: BudgetFox
+
+Tagline: Smart Money, Smarter You
+
+Theme: Orange (#FF7A1A), Green (#14C38E), White, Black
+
+
+
+---
+
+⭐ 2. Core App Modules
+
+A) User Module
+
+Signup/Login (email, phone, OTP)
+
+Student profile (income, hostel/day scholar, year)
+
+Security setup (PIN/biometric)
+
+
+B) Expense Manager
+
+Add expense manually
+
+Scan receipt using OCR
+
+Auto extract amount/date/merchant/category
+
+Edit and confirm
+
+Import UPI/Bank statement (CSV/PDF)
+
+Daily, weekly, monthly spending charts
+
+Total budget consumption bar
+
+
+C) Multi-Wallet System
+
+Create and manage multiple wallets:
+
+Cash Wallet
+
+E-ATM Virtual Card Wallet
+
+PayLater Wallet
+
+Rewards Wallet
+
+
+Each wallet must have:
+
+Unique wallet ID
+
+Balance
+
+Ledger history
+
+Top-up simulation
+
+Spending limit rules
+
+
+
+---
+
+⭐ 3. E-ATM Virtual Card Module
+
+Simulate a virtual debit card for students:
+
+Generate virtual card: masked number, expiry, CVV (masked)
+
+Freeze / Unfreeze card
+
+Transaction simulation
+
+Spending limit (daily/monthly)
+
+Real-time wallet deduction
+
+Secure PIN (hashed)
+
+
+
+---
+
+⭐ 4. PayLater / Buy-Now-Pay-Later (BNPL)
+
+A complete PayLater system with:
+
+Student eligibility check
+
+Auto-approval based on AI credit score
+
+PayLater limit (₹500 – ₹5000)
+
+PayLater wallet
+
+Purchase using PayLater
+
+Due date reminders
+
+Penalty for overdue
+
+Payment tracking
+
+
+
+---
+
+⭐ 5. EMI System
+
+Convert ANY transaction into EMI:
+
+Select tenor: 3 / 6 / 9 months
+
+Show EMI breakdown, interest (simulated)
+
+Monthly auto-deduction
+
+EMI dashboard
+
+Late payment + penalty
+
+
+
+---
+
+⭐ 6. AI/ML Features
+
+Create a Python ML module with the following models:
+
+✔ Expense Auto-Categorizer (NLP)
+
+Input: OCR text + merchant + amount
+
+Output: category (food, shopping, travel, study, rent, bills)
+
+
+✔ Budget Predictor
+
+Predict monthly expected spending
+
+Show overspending alerts
+
+
+✔ AI Credit Score
+
+Score range: 300–900
+Based on:
+
+Income
+
+Spending stability
+
+PayLater repayments
+
+EMIs
+
+Savings behavior
+
+Overdue count
+
+Fraud flags
+
+
+✔ Fraud Detection Model
+
+Detect abnormal activity:
+
+High-value unusual transactions
+
+Odd-time purchases
+
+Location mismatch
+
+Repeated micro-transactions
+
+Sudden merchant change
+
+
+✔ Habit Analyzer
+
+Detect:
+
+Weekend overspending
+
+Food addiction
+
+Online shopping spikes
+
+Monthly burn rate
+
+
+
+---
+
+⭐ 7. Foxy AI – In-App Chatbot
+
+Add a built-in AI Assistant named Foxy AI.
+
+Foxy AI can:
+
+Explain expenses
+
+Suggest budgets
+
+Help with PayLater
+
+Help convert to EMI
+
+Warn about fraud
+
+Give saving tips
+
+Analyze spending behavior
+
+Show balances
+
+Freeze/unfreeze card
+
+Explain credit score
+
+Send reminders
+
+
+Foxy AI personality:
+
+Friendly
+
+Supportive
+
+Smart
+
+Clear
+
+Finance safe
+
+
+
+---
+
+⭐ 8. Subscription Manager
+
+Track recurring payments:
+
+Netflix
+
+Spotify
+
+Amazon Prime
+
+Hotstar
+
+College fees
+
+Bus pass
+
+Mobile recharge
+
+Cloud storage
+
+
+Features:
+
+Auto-renew reminders
+
+Next billing prediction
+
+Category tagging
+
+
+
+---
+
+⭐ 9. Notifications Module
+
+Types of alerts:
+
+Overspending
+
+PayLater due
+
+EMI due
+
+Subscription renewal
+
+Fraud alerts
+
+Budget exceeded
+
+Daily/weekly summary
+
+
+
+---
+
+⭐ 10. Admin Dashboard
+
+Create admin portal to:
+
+View users
+
+View transactions
+
+Analyze fraud alerts
+
+Override PayLater limits
+
+Manage subscriptions
+
+Monitor AI model performance
+
+Generate reports
+
+
+
+---
+
+⭐ 11. Database Schema (Build All Tables)
+
+Tables required:
+
+users
+
+wallets
+
+virtual_cards
+
+transactions
+
+paylater_accounts
+
+emi_plans
+
+emi_repayments
+
+subscriptions
+
+fraud_alerts
+
+budgets
+
+notifications
+
+ai_credit_score
+
+chat_logs
+
+audit_logs
+
+
+Use PostgreSQL.
+
+
+---
+
+⭐ 12. App UI Screens (Generate All Pages)
+
+Main Screens:
+
+Splash
+
+Onboarding
+
+Login/Signup
+
+Dashboard
+
+Add Expense
+
+Receipt Scan
+
+Expense List
+
+Wallet Overview
+
+Virtual Card
+
+PayLater Screen
+
+EMI Screen
+
+Subscriptions
+
+Reports & Analytics
+
+Foxy AI Chat
+
+Settings
+
+
+
+---
+
+⭐ 13. Security Requirements
+
+JWT Auth
+
+API rate limiting
+
+PIN encrypted with bcrypt
+
+Mask card details
+
+Role-based access
+
+Audit log for every fin-action
+
+No real money movement
+
+All PayLater functions simulated
+
+
+
+---
+
+⭐ 14. Output Format
+
+Deliver:
+✔ Full frontend code
+✔ Full backend code
+✔ Full ML code
+✔ Database schema
+✔ API documentation
+✔ UI screen designs
+✔ Branding package
+✔ Deployment setup
+✔ Admin dashboard code
+✔ Project structure
+✔ README.md
+
+Ensure it is production-like, clean, modern, and modular.
+
+
+---
+
+🦊 END OF MASTER PROMPT
+
+Build the entire “BudgetFox” system with all features above.
+
+
+---
+
+If you want, I can also generate:
+✅ BudgetFox App Logo
+✅ Full 80-page Project Report
+✅ 15-slide PPT
+✅ Database SQL file
+✅ UML Diagrams Pack
+✅ API Docs (Swagger)
+
+Just tell me what you want next!
